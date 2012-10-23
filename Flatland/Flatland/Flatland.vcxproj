@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1916F61B-0669-4A5B-BAFD-CBE921435862}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Flatland</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\..\DXSDK\Include;$(DXSDK_DIR)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\lib\x86;$(ProjectDir)\..\DXSDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(ProjectDir)\..\DXSDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\lib\x86;$(ProjectDir)\..\DXSDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dsound.lib;dxguid.lib;winmm.lib;vfw32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dsound.lib;dxguid.lib;winmm.lib;vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="bird.cpp" />
+    <ClCompile Include="CORE\CORE.Animation.cpp" />
+    <ClCompile Include="CORE\CORE.Collection.cpp" />
+    <ClCompile Include="CORE\CORE.Debugging.cpp" />
+    <ClCompile Include="CORE\CORE.Hardware.3D.cpp" />
+    <ClCompile Include="CORE\CORE.Hardware.3D.Texture.cpp" />
+    <ClCompile Include="CORE\CORE.Hardware.Audio.cpp" />
+    <ClCompile Include="CORE\CORE.Hardware.Audio.WavFile.cpp" />
+    <ClCompile Include="CORE\CORE.Hardware.Drawing.3D.cpp" />
+    <ClCompile Include="CORE\CORE.Hardware.Video.AviFile.cpp" />
+    <ClCompile Include="CORE\CORE.Image.cpp" />
+    <ClCompile Include="CORE\CORE.Keyboard.cpp" />
+    <ClCompile Include="CORE\CORE.Mouse.cpp" />
+    <ClCompile Include="CORE\CORE.Software.Drawing.2D.cpp" />
+    <ClCompile Include="CORE\CORE.Windows.cpp" />
+    <ClCompile Include="EndingScene.cpp" />
+    <ClCompile Include="FireWall.cpp" />
+    <ClCompile Include="GameOverScene.cpp" />
+    <ClCompile Include="paperBall.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="Stationaries\bridge01.cpp" />
+    <ClCompile Include="Stationaries\car01.cpp" />
+    <ClCompile Include="Stationaries\Couch.cpp" />
+    <ClCompile Include="Draw.cpp" />
+    <ClCompile Include="EnemyObject.cpp" />
+    <ClCompile Include="GameCore.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="MenuScene.cpp" />
+    <ClCompile Include="MobileEntity.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Rat.cpp" />
+    <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="Resources.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Stationaries\building01.cpp" />
+    <ClCompile Include="Stationaries\building02.cpp" />
+    <ClCompile Include="Stationaries\cloud01.cpp" />
+    <ClCompile Include="Stationaries\cloud02.cpp" />
+    <ClCompile Include="Stationaries\crate01.cpp" />
+    <ClCompile Include="Stationaries\crate02.cpp" />
+    <ClCompile Include="Stationaries\crate03.cpp" />
+    <ClCompile Include="Stationaries\crate04.cpp" />
+    <ClCompile Include="Stationaries\door01.cpp" />
+    <ClCompile Include="Stationaries\floorTile01.cpp" />
+    <ClCompile Include="Stationaries\HP_Pickup.cpp" />
+    <ClCompile Include="Stationaries\skyscraper01.cpp" />
+    <ClCompile Include="Stationaries\skyscraper02.cpp" />
+    <ClCompile Include="Stationaries\skyscraper03.cpp" />
+    <ClCompile Include="Stationaries\skyscraper04.cpp" />
+    <ClCompile Include="Stationaries\table01.cpp" />
+    <ClCompile Include="Stationaries\tree01.cpp" />
+    <ClCompile Include="Stationaries\van01.cpp" />
+    <ClCompile Include="Stationaries\window01.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="CORE\CORE.Hardware.3D.Texture.h" />
+    <ClInclude Include="EndingScene.h" />
+    <ClInclude Include="FireWall.h" />
+    <ClInclude Include="GameOverScene.h" />
+    <ClInclude Include="bird.h" />
+    <ClInclude Include="paperBall.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="Stationaries\Assets.h" />
+    <ClInclude Include="Stationaries\bridge01.h" />
+    <ClInclude Include="Stationaries\car01.h" />
+    <ClInclude Include="Stationaries\Couch.h" />
+    <ClInclude Include="Draw.h" />
+    <ClInclude Include="CORE\CORE.Animation.h" />
+    <ClInclude Include="CORE\CORE.Collection.h" />
+    <ClInclude Include="CORE\CORE.Debugging.h" />
+    <ClInclude Include="CORE\CORE.Hardware.3D.h" />
+    <ClInclude Include="CORE\CORE.Hardware.Audio.h" />
+    <ClInclude Include="CORE\CORE.Hardware.Audio.WavFile.h" />
+    <ClInclude Include="CORE\CORE.Hardware.Drawing.3D.h" />
+    <ClInclude Include="CORE\CORE.Hardware.Video.AviFile.h" />
+    <ClInclude Include="CORE\CORE.Image.h" />
+    <ClInclude Include="CORE\CORE.Keyboard.h" />
+    <ClInclude Include="CORE\CORE.Mouse.h" />
+    <ClInclude Include="CORE\CORE.Software.Drawing.2D.h" />
+    <ClInclude Include="CORE\CORE.Windows.h" />
+    <ClInclude Include="EnemyObject.h" />
+    <ClInclude Include="GameCore.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="MenuScene.h" />
+    <ClInclude Include="MobileEntity.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Rat.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Stationaries\building01.h" />
+    <ClInclude Include="Stationaries\building02.h" />
+    <ClInclude Include="Stationaries\cloud01.h" />
+    <ClInclude Include="Stationaries\cloud02.h" />
+    <ClInclude Include="Stationaries\crate01.h" />
+    <ClInclude Include="Stationaries\crate02.h" />
+    <ClInclude Include="Stationaries\crate03.h" />
+    <ClInclude Include="Stationaries\crate04.h" />
+    <ClInclude Include="Stationaries\door01.h" />
+    <ClInclude Include="Stationaries\floorTile01.h" />
+    <ClInclude Include="Stationaries\HP_Pickup.h" />
+    <ClInclude Include="Stationaries\skyscraper01.h" />
+    <ClInclude Include="Stationaries\skyscraper02.h" />
+    <ClInclude Include="Stationaries\skyscraper03.h" />
+    <ClInclude Include="Stationaries\skyscraper04.h" />
+    <ClInclude Include="Stationaries\table01.h" />
+    <ClInclude Include="Stationaries\tree01.h" />
+    <ClInclude Include="Stationaries\van01.h" />
+    <ClInclude Include="Stationaries\window01.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Flatland.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="appicon.ico" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="F:\Flatland\layout01_cropped.psd" />
+    <None Include="RESOURCES\angrydogSheet.png" />
+    <None Include="RESOURCES\backdrop.png" />
+    <None Include="RESOURCES\backdrop2_6360.x1440.png" />
+    <None Include="RESOURCES\backdrop_6560.x1440.jpg" />
+    <None Include="RESOURCES\backdrop_6560.x1440.png" />
+    <None Include="RESOURCES\box01.png" />
+    <None Include="RESOURCES\box02.png" />
+    <None Include="RESOURCES\box03.png" />
+    <None Include="RESOURCES\box04.png" />
+    <None Include="RESOURCES\bridge.png" />
+    <None Include="RESOURCES\bridgeCenter.png" />
+    <None Include="RESOURCES\bridgeLeft.png" />
+    <None Include="RESOURCES\bridgeRight.png" />
+    <None Include="RESOURCES\car.png" />
+    <None Include="RESOURCES\flame01.jpg" />
+    <None Include="RESOURCES\flame01.png" />
+    <None Include="RESOURCES\flame01.tga" />
+    <None Include="RESOURCES\flame02.tga" />
+    <None Include="RESOURCES\Health.png" />
+    <None Include="RESOURCES\Health2.png" />
+    <None Include="RESOURCES\MadBird_632x128.png" />
+    <None Include="RESOURCES\paperball_32x32.png" />
+    <None Include="RESOURCES\smasher_up_574x365.png" />
+    <None Include="RESOURCES\charSpriteSheet02-2.png" />
+    <None Include="RESOURCES\cloud01.png" />
+    <None Include="RESOURCES\cloud02.png" />
+    <None Include="RESOURCES\door01.png" />
+    <None Include="RESOURCES\firstHouse.png" />
+    <None Include="RESOURCES\floorTile.png" />
+    <None Include="RESOURCES\house01_windowBack.png" />
+    <None Include="RESOURCES\house02.png" />
+    <None Include="RESOURCES\new_game_466x113.png" />
+    <None Include="RESOURCES\new_game_HOVER_466x113.png" />
+    <None Include="RESOURCES\options_466x113.png" />
+    <None Include="RESOURCES\options_HOVER_466x113.png" />
+    <None Include="RESOURCES\quit_466x113.png" />
+    <None Include="RESOURCES\quit_HOVER_466x113.png" />
+    <None Include="RESOURCES\smasher_down_574x365.png" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\bag-crunch-1.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\bag-rustle-1.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\fire-1.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\flatland-bgm-nobass.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\flatland-bgm.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\foil-crunch-1.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\foil-rip-1.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\foil-tear-1.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\step-1.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\step-2.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\step-3.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\step-4.wav" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\step-5.wav" />
+    <None Include="RESOURCES\table01.png" />
+    <None Include="RESOURCES\title_img_574x432.png" />
+    <None Include="RESOURCES\tree01.png" />
+    <None Include="RESOURCES\van.png" />
+    <None Include="RESOURCES\walking01.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

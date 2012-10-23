@@ -1,0 +1,10 @@
+#ifndef _CONSTANTS
+#define _CONSTANTS
+
+#define WINDOW_HEIGHT	720
+#define WINDOW_WIDTH	1280
+#define LEVEL_LENGTH	6560
+#define LEVEL_HEIGHT	1440
+#define GRAVITY			0.75f
+
+#endif //_CONSTANTS

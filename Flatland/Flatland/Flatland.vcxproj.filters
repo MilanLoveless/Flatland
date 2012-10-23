@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CORE">
+      <UniqueIdentifier>{621f2587-05e9-4aec-9215-a3a7344b319d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CORE\CORE.Animation.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Collection.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Debugging.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Hardware.3D.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Hardware.Audio.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Hardware.Audio.WavFile.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Hardware.Drawing.3D.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Hardware.Video.AviFile.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Image.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Keyboard.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Mouse.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Software.Drawing.2D.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Windows.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MobileEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE\CORE.Hardware.3D.Texture.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Rat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\building01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\cloud01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\cloud02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\door01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\floorTile01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\window01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\building02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\table01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\tree01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\Couch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\bridge01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\car01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\crate01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\crate02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\crate03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\crate04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\skyscraper01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\skyscraper02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\skyscraper03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\skyscraper04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\van01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FireWall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stationaries\HP_Pickup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paperBall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CORE\CORE.Windows.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Animation.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Collection.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Debugging.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Hardware.3D.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Hardware.Audio.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Hardware.Audio.WavFile.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Hardware.Drawing.3D.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Hardware.Video.AviFile.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Image.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Keyboard.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Mouse.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Software.Drawing.2D.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MobileEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CORE\CORE.Hardware.3D.Texture.h">
+      <Filter>Source Files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Rat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\building01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\cloud01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\cloud02.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\door01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\floorTile01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\window01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\building02.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\table01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\tree01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\Couch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\bridge01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\car01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\crate01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\crate02.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\crate03.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\crate04.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\skyscraper01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\skyscraper02.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\skyscraper03.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\skyscraper04.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\van01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\Assets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FireWall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stationaries\HP_Pickup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paperBall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Flatland.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="appicon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\walking01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\charSpriteSheet02-2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\angrydogSheet.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\backdrop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\new_game_HOVER_466x113.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\options_466x113.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\options_HOVER_466x113.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\quit_466x113.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\quit_HOVER_466x113.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\smasher_down_574x365.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\cloud01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\new_game_466x113.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\cloud02.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\door01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\firstHouse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\floorTile.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\house01_windowBack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\house02.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\table01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\title_img_574x432.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\tree01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\backdrop_6560.x1440.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\smasher_up_574x365.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\backdrop_6560.x1440.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\box01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\box02.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\box03.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\box04.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\bridge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\car.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\van.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\backdrop2_6360.x1440.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\bridgeCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\bridgeLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\bridgeRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\bag-crunch-1.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\step-5.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\bag-rustle-1.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\foil-tear-1.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\step-1.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\step-2.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\step-3.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\step-4.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\flatland-bgm.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\flatland-bgm-nobass.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\foil-rip-1.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\foil-crunch-1.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\flame01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\flame01.tga" />
+    <None Include="RESOURCES\flame01.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\flame02.tga" />
+    <None Include="RESOURCES\SOUNDS OF FLATLAND\fire-1.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\Health.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="F:\Flatland\layout01_cropped.psd" />
+    <None Include="RESOURCES\MadBird_632x128.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\Health2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RESOURCES\paperball_32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
